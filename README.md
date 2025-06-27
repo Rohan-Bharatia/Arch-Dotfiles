@@ -1,13 +1,10 @@
 # Arch-Dotfiles
 
----
-
-![Arch Linux Logo](https://github.com/Rohan-Bharatia/Arch-Dotfiles/tree/main/Pictures/archlinux-logo.jpg)
-
-
-![My Setup](https://github.com/Rohan-Bharatia/Arch-Dotfiles/tree/main/Pictures/display.png)
+![Arch Linux Logo](https://raw.githubusercontent.com/Rohan-Bharatia/Arch-Dotfiles/refs/heads/main/Pictures/archlinux-logo.png)
 
 ---
+
+![Display](https://raw.githubusercontent.com/Rohan-Bharatia/Arch-Dotfiles/refs/heads/main/Pictures/display.png)
 
 Configuration files for my Arch Linux setup
 
@@ -39,5 +36,5 @@ Configuration files for my Arch Linux setup
 
 4. Enjoy! :)
 
-> ![WARNING]
+> [!WARNING]
 > You may need to reboot your system to see many changes made in step 2
