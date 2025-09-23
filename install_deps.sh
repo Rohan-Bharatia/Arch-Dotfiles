@@ -3,7 +3,7 @@
 cd $HOME
 
 sudo pacman -Syu
-sudo pacman -S kitty hyprland hyprpaper hyprlock hypridle hyprshot waybar wofi pipewire playerctl gtk3 git starship
+sudo pacman -S kitty hyprland hyprpaper hyprlock hypridle hyprshot waybar wofi pipewire playerctl gtk3 git pavucontrol
 
 if ! command -v yay >/dev/null; then
     mkdir -p $HOME/tmp
@@ -14,4 +14,4 @@ if ! command -v yay >/dev/null; then
     cd $HOME
 fi
 
-yay -S swaync nerd-fonts neofetch zen-browser
+yay -S swaync nerd-fonts neofetch blueman zen-browser
