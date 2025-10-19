@@ -1,7 +1,12 @@
 {
+  "layer": "top",
   "height": 30,
   "spacing": 4,
   "position": "top",
+  "margin-top": 8,
+  "margin-left": 16,
+  "margin-right": 16,
+  "height": 30,
   "modules-left": [
     "hyprland/window"
   ],
@@ -9,7 +14,7 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "network",
+    "mpris",
     "pulseaudio",
     "clock",
     "battery",
@@ -26,13 +31,22 @@
       "default": ""
     }
   },
-  "network": {
-    "format-wifi": "{essid} ({signalStrength}%) ",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}"
+  "mpris": {
+    "format": "{player_icon} {title}",
+    "format-paused": "{player_icon}  {title}",
+    "format-playing": "{player_icon}  {title}",
+    "player-icons": {
+      "default": "",
+      "spotify": "",
+      "firefox": "",
+      "mpv": ""
+    },
+    "ignored-players": ["chromium"],
+    "tooltip-format": "{player} — {album} — {title}",
+    "interval": 2,
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
   },
   "pulseaudio": {
     "format": "{volume}% {icon} {format_source}",

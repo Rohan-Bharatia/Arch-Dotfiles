@@ -8,18 +8,20 @@
 
 /* Default bar background and text */
 window#waybar {
-  background: #1B1A1F;
+  background: linear-gradient(180deg, rgba(27, 26, 31, 0.45), rgba(27, 26, 31, 0.25));
   color: #F4C9C1;
+  border-radius: 12px;
 }
 
 /* Workspaces */
 #workspaces {
-  background: #2A2329;
+  background: linear-gradient(180deg, rgba(42, 35, 41, 0.45), rgba(42, 35, 41, 0.25));
   margin: 2px 4px;
   border-radius: 4px;
 }
 #workspaces button {
-  padding: 0 6px;
+  padding: 3px 6px;
+  margin: 2px 4px;
   color: #F4C9C1;
   background: transparent;
 }
@@ -47,7 +49,7 @@ menu,
 menuitem {
   padding: 0 8px;
   margin: 2px 4px;
-  background: #2A2329;
+  background: linear-gradient(180deg, rgba(42, 35, 41, 0.45), rgba(42, 35, 41, 0.25));
   color: #F4C9C1;
   border-radius: 4px;
 }
@@ -65,24 +67,22 @@ menuitem {
 #temperature:hover,
 #custom-*:hover,
 menuitem:hover {
-  background: #9E3B3F;
-  color: #1B1A1F;
+  background: linear-gradient(180deg, rgba(154, 59, 63, 0.45), rgba(154, 59, 63, 0.25));
 }
 
 /* Active colors */
 #battery.charging {
-  background: #6A1C1A;
-  color: #F4C9C1;
+  background: linear-gradient(180deg, rgba(106, 28, 26, 0.45), rgba(106, 28, 26, 0.25));
 }
 #battery.warning {
-  background: #F3A29A;
-  color: #1B1A1F;
+  background: linear-gradient(180deg, rgba(243, 162, 154, 0.45), rgba(243, 162, 154, 0.25));
 }
 
 /* Separator or general spacing */
 .modules-left,
 .modules-center,
 .modules-right {
-  padding: 0 6px;
+  padding: 0 8px;
+  margin: 2px 4px;
 }
 

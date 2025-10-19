@@ -18,9 +18,13 @@ function copy()
     cp -r "$src/"* "$dest/" 2>/dev/null
 }
 
+chmod +x $HOME/.local/bin/*.sh
+
 copy hypr
 copy kitty
 copy neofetch
 copy waybar
 copy wofi
+copy cava
 copy Pictures "$HOME/Pictures"
+copy scripts "$HOME/.local/bin"

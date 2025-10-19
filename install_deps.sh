@@ -3,7 +3,7 @@
 cd $HOME
 
 sudo pacman -Syu
-sudo pacman -S kitty hyprland hyprpaper hyprlock hypridle hyprshot waybar wofi pipewire playerctl gtk3 git pavucontrol
+sudo pacman -S --noconfirm kitty hyprland hyprpaper hyprlock hypridle hyprshot waybar wofi pipewire playerctl gtk3 git pavucontrol
 
 if ! command -v yay >/dev/null; then
     mkdir -p $HOME/tmp
