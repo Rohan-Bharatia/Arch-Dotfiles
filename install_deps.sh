@@ -15,3 +15,10 @@ if ! command -v yay >/dev/null; then
 fi
 
 yay -S swaync nerd-fonts neofetch blueman zen-browser
+
+if ! command -v ollama >/dev/null; then
+    cd $HOME
+    curl -fsSL https://ollama.com/install.sh | sh
+fi
+
+ollama pull phi3:mini
