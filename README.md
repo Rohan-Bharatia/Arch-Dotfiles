@@ -29,6 +29,7 @@ Configuration files for my Arch Linux setup
 - `blender`
 - `spotify-launcher`
 - `python`
+- `ttf-dejavu`
 - `swaync`
 - `nerd-fonts`
 - `neofetch`
