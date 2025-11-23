@@ -3,7 +3,7 @@
 cd $HOME
 
 sudo pacman -Syu
-sudo pacman -S --noconfirm kitty hyprland hyprpaper hyprlock hypridle hyprshot waybar wofi pipewire playerctl gtk3 git pavucontrol rclone
+sudo pacman -S --noconfirm hyprland hyprpaper hyprlock hypridle hyprshot kitty waybar wofi pipewire playerctl gtk3 git pavucontrol rclone godot obsidian blender spotify-launcher
 
 if ! command -v yay >/dev/null; then
     mkdir -p $HOME/tmp
@@ -14,7 +14,7 @@ if ! command -v yay >/dev/null; then
     cd $HOME
 fi
 
-yay -S swaync nerd-fonts neofetch blueman zen-browser
+yay -S swaync nerd-fonts neofetch blueman zen-browser-bin
 
 if ! command -v ollama >/dev/null; then
     cd $HOME
@@ -22,3 +22,4 @@ if ! command -v ollama >/dev/null; then
 fi
 
 ollama pull phi3:mini
+rclone config

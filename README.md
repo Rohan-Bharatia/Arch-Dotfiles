@@ -10,21 +10,28 @@ Configuration files for my Arch Linux setup
 
 ## Dependencies
 
-- Kitty
-- Hyprland
-- Hyprpaper
-- Hyprlock
-- Hypridle
-- Hyprshot
-- Waybar
-- Wofi
-- Neofetch
-- Zen Browser
-- Pulseaudio
-- SwayNC
-- Playerctl
-- GTK3
-- Nerd Fonts
+- `hyprland`
+- `hyprpaper`
+- `hyprlock`
+- `hypridle`
+- `hyprshot`
+- `kitty`
+- `waybar`
+- `wofi`
+- `pipewire`
+- `playerctl`
+- `gtk3`
+- `pavucontrol`
+- `rclone`
+- `godot`
+- `obsidian`
+- `blender`
+- `spotify-launcher`
+- `swaync`
+- `nerd-fonts`
+- `neofetch`
+- `blueman`
+- `zen-browser-bin`
 
 ## Usage
 
