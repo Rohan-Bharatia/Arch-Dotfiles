@@ -10,6 +10,7 @@ Configuration files for my Arch Linux setup
 
 ## Dependencies
 
+- `gcc`
 - `hyprland`
 - `hyprpaper`
 - `hyprlock`
@@ -27,11 +28,14 @@ Configuration files for my Arch Linux setup
 - `obsidian`
 - `blender`
 - `spotify-launcher`
+- `python`
 - `swaync`
 - `nerd-fonts`
 - `neofetch`
 - `blueman`
 - `zen-browser-bin`
+- `ollama`
+- `wpilib-2025.3.2`
 
 ## Usage
 

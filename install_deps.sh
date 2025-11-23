@@ -1,9 +1,11 @@
 #!/bin/bash
 
+set -euo pipefail
+
 cd $HOME
 
 sudo pacman -Syu
-sudo pacman -S --noconfirm hyprland hyprpaper hyprlock hypridle hyprshot kitty waybar wofi pipewire playerctl gtk3 git pavucontrol rclone godot obsidian blender spotify-launcher
+sudo pacman -S --noconfirm gcc hyprland hyprpaper hyprlock hypridle hyprshot kitty waybar wofi pipewire playerctl gtk3 git pavucontrol rclone godot obsidian blender spotify-launcher python
 
 if ! command -v yay >/dev/null; then
     mkdir -p $HOME/tmp
@@ -23,3 +25,7 @@ fi
 
 ollama pull phi3:mini
 rclone config
+
+if [ "$1" == "--install-wpilib" ]; then
+    sudo ./install_wpilib.sh
+fi
