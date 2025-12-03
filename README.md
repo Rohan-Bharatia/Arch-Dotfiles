@@ -19,6 +19,7 @@ Configuration files for my Arch Linux setup
 - `kitty`
 - `waybar`
 - `wofi`
+- `nautilus`
 - `pipewire`
 - `playerctl`
 - `gtk3`
