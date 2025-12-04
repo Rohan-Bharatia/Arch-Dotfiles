@@ -1,4 +1,4 @@
-# Arch-Dotfiles
+# Arch-Dots
 
 ![Arch Linux Logo](https://raw.githubusercontent.com/Rohan-Bharatia/Arch-Dotfiles/refs/heads/main/Pictures/archlinux-logo.png)
 
@@ -19,21 +19,19 @@ Configuration files for my Arch Linux setup
 - `kitty`
 - `waybar`
 - `wofi`
-- `nautilus`
+- `nemo`
+- `btop`
 - `pipewire`
 - `playerctl`
 - `gtk3`
 - `pavucontrol`
 - `rclone`
-- `godot`
-- `obsidian`
-- `blender`
 - `spotify-launcher`
 - `python`
 - `ttf-dejavu`
-- `swaync`
+- `fastfetch`
+- `dunst`
 - `nerd-fonts`
-- `neofetch`
 - `blueman`
 - `zen-browser-bin`
 - `ollama`

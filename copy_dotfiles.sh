@@ -19,9 +19,4 @@ function copy()
 }
 
 copy hypr
-copy kitty
-copy neofetch
-copy waybar
-copy wofi
-copy cava
-copy Pictures "$HOME/Pictures"
+copy assets "$HOME/Pictures"
