@@ -18,5 +18,8 @@ function copy()
     cp -r "$src/"* "$dest/" 2>/dev/null
 }
 
+copy bash "$HOME"
 copy hypr
 copy assets "$HOME/Pictures"
+
+source ~/.bashrc
