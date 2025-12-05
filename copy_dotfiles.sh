@@ -18,8 +18,10 @@ function copy()
     cp -r "$src/"* "$dest/" 2>/dev/null
 }
 
-copy bash "$HOME"
 copy hypr
+copy kitty
+copy wofi
+copy bash "$HOME"
 copy assets "$HOME/Pictures"
 
 source ~/.bashrc
