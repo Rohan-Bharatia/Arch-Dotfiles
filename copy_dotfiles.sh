@@ -21,7 +21,8 @@ function copy()
 copy hypr
 copy kitty
 copy wofi
+copy waybar
 copy bash "$HOME"
 copy assets "$HOME/Pictures"
 
-source ~/.bashrc
+# source ~/.bashrc
