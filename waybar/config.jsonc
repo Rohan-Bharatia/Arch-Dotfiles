@@ -3,7 +3,7 @@
   "spacing": 4,
   "position": "left",
   "margin": 0,
-  "width": 32,
+  "width": 58,
   "modules-left": [
     "custom/power",
     "custom/battery",

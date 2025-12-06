@@ -18,8 +18,8 @@ window#waybar {
 
 .modules-left,
 .modules-right {
-  padding: 8px 0;
-  margin: 4px 2px;
+  padding: 4px;
+  margin: 10px;
 }
 
 #workspaces,
