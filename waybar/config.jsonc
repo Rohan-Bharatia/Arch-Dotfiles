@@ -32,8 +32,8 @@
     "menu": "on-click",
     "menu-file": "~/.config/waybar/menus/battery.xml",
     "menu-actions": {
-      "percentage": "",
-      "power": ""
+      "percentage": "bash ~/.config/waybar/scripts/battery_percentage.sh",
+      "power": "bash ~/.config/waybar/scripts/battery_info.sh"
     }
   },
   "custom/datetime": {
@@ -42,8 +42,8 @@
     "menu": "on-click",
     "menu-file": "~/.config/waybar/menus/datetime.xml",
     "menu-actions": {
-      "time": "",
-      "date": ""
+      "time": "date '+%T' | notify-send 'Current time'",
+      "date": "date '+%Y-%m-%d' | notify-send 'Today’s date'"
     }
   },
   "custom/network": {
@@ -52,9 +52,9 @@
     "menu": "on-click",
     "menu-file": "~/.config/waybar/menus/network.xml",
     "menu-actions": {
-      "reload": "",
-      "connect-wifi": "",
-      "connect-bluetooth": ""
+      "reload": "nmcli networking off && nmcli networking on",
+      "connect-wifi": "nm-connection-editor",
+      "connect-bluetooth": "blueman-manager"
     }
   },
   "custom/audio": {
@@ -63,8 +63,8 @@
     "menu": "on-click",
     "menu-file": "~/.config/waybar/menus/audio.xml",
     "menu-actions": {
-      "speaker-volume": "",
-      "microphone-volume": ""
+      "speaker-volume": "pavucontrol",
+      "microphone-volume": "pavucontrol"
     }
   },
   "hyprland/workspaces": {
