@@ -3,7 +3,7 @@
   border-radius: 1rem;
   font-family: "JetBrainsMono Nerd Font", monospace;
   font-size: 14px;
-  min-height: 0;
+  min-width: 12px;
 }
 
 window#waybar {
@@ -12,72 +12,51 @@ window#waybar {
 }
 
 #workspaces {
-  margin: 2px 4px;
+  margin: 4px 2px;
   padding: 2px;
 }
+
+.modules-left,
+.modules-right {
+  padding: 8px 0;
+  margin: 4px 2px;
+}
+
 #workspaces,
-.modules-center {
+.modules-left {
   background: rgba(34, 28, 36, 0.66);
   text-shadow: 0 0 6px rgba(252, 222, 175, 0.66);
 }
-#workspaces button {
-  padding: 3px 6px;
-  margin: 2px 4px;
+#workspaces button,
+.modules-left button {
+  padding: 6px 3px;
+  margin: 4px 2px;
   color: #f7e3c9;
   background: transparent;
 }
-#workspaces button.focused {
+#workspaces button.focused,
+.modules-left button.focused {
   background: #5c6e9c;
   color: #f7e3c9;
 }
-#workspaces button.urgent {
+#workspaces button.urgent,
+.modules-left button.focused {
   background: #ff684d;
   color: #f7e3c9;
 }
 
-#clock,
-#battery,
-#pulseaudio,
-#network,
-#cpu,
-#memory,
-#tray,
-#backlight,
-#temperature,
 #custom-*,
 menu,
 menuitem {
-  padding: 0 8px;
-  margin: 2px 4px;
+  padding: 8px 0;
+  margin: 4px 2px;
   background: rgba(34, 28, 36, 0.66);
   color: #f7e3c9;
 }
 
 #workspaces button:hover,
-#clock:hover,
-#battery:hover,
-#pulseaudio:hover,
-#network:hover,
-#cpu:hover,
-#memory:hover,
-#tray:hover,
-#backlight:hover,
-#temperature:hover,
 #custom-*:hover,
 menuitem:hover {
-  background: rgba(34, 28, 36, 0.66);
-}
-
-#battery.charging {
-  background: rgba(34, 28, 36, 0.66);
-}
-#battery.warning {
-  background: rgba(34, 28, 36, 0.66);
-}
-
-.modules-left,
-.modules-center,
-.modules-right {
-  padding: 0 8px;
-  margin: 2px 4px;
+  background: rgba(247, 227, 201, 0.66);
+  color: #221c24;
 }
